@@ -31,7 +31,7 @@
     </head>
     <body>
         <div class="app">
-            <h1>Hello Everybody Peeps!</h1>
+            <h1>Hello Everybody!</h1>
             <h2>Tony here ;)</h2>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
@@ -40,8 +40,21 @@
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/jquery-1.7.min.js"></script>
         <script type="text/javascript">
             app.initialize();
         </script>
+        
+        <hr>
+        
+        <input type="button" id="addButton" value="Click to ADD">
+        
+        <input  type="button" id="testButton" value="Click to TEST">
+        
+        <input type="button" id="deleteButton" value="Click to DELETE">
+    
+        <div id="result"></div>        
+        
     </body>
 </html>
