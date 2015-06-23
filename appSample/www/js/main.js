@@ -10,11 +10,11 @@ function errorHandler(e) {
 }
 
 function deviceready2() {
-    alert("Device Ready2");
+    //alert("Device Ready2");
     db = window.openDatabase("test", "1.0", "test", 1000000);
-    alert("Database Open");
+    //alert("Database Open");
     db.transaction(setup, errorHandler, dbReady);
-    alert("Database Setup.");
+    //alert("Database Setup.");
 }
 
 function dbReady() {
